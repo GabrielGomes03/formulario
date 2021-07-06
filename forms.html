@@ -1,0 +1,108 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="forms.css">
+<body>
+    <header>
+        <div>
+            <p>Preencha o formulário</p>
+            <img src="icones/caderno.png">
+        </div>
+    </header>
+
+    <form>
+        <h2 style="text-decoration: underline;">Formulário de contrato:</h2>
+        <fieldset class="nomesobre">
+            <div>
+                <input class="padrao" type="text" name="nome" placeholder="Nome" required="">
+            </div>
+            <div>
+                <input class="padrao"  type="text" name="nome" placeholder="Sobrenome" required="">
+            </div>
+        </fieldset>
+        <fieldset class="area_at">
+            <div>
+                <label for="area">Área de atuação:</label>
+            </div>
+            <div>
+                <select class="padrao" >
+                    <option>Área Tecnológica</option>
+                    <option>Administração</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+        </fieldset>
+        <div class="textarea">
+            <div>
+                <p>Conte-nos um pouco mais sobre você:</p>
+            </div>
+            <textarea rows="10" required=""></textarea>
+        </div>
+            <div class="requisitos">
+                <p>Preencha apenas se tiver alguns desses requisitos desejáveis:</p>
+                <br>
+                <div>
+                    <label>Ensino Superior na área</label>
+                    <input type="checkbox" name="superior">
+                    <label>Boa comunicação</label>
+                    <input type="checkbox" name="comunicacao">
+                    <label>Trabalho em equipe</label>
+                    <input type="checkbox" name="superior">
+                </div>
+            </div>
+        <div class="pref_ctt">
+            <p>Informe-nos o seu número para contato via Whatsapp:</p>
+            <label><img src="icones/whats.png"></label>
+            <input class="padrao" type="tel" name="whats" required="" placeholder="
+            XX-XXXXX-XXXX" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+        </div>
+
+        <div class="genero">
+            <p>Gênero:</p>
+            <label>Masculino</label>
+            <input type="radio" name="genero" value="masc">
+            <label>Feminino</label>
+            <input type="radio" name="genero" value="fem">
+            <label>Outro</label>
+            <input type="radio" name="genero" value="outro">
+        </div>
+
+        <input class="enviar" type="submit" name="enviar" value="Enviar">
+    </form>
+    <div class="tabela">
+        <table>
+            <tr>
+                <th colspan="6" style="text-align: center;">Carga horária para todos os cargos:</th>
+            </tr>
+            <tr>
+                <td class="justify">Área tecnológica:</td>
+                <td class="justify">Segunda-Feira(08-17)</td>
+                <td class="justify">Terça-Feira(08-18)</td>
+                <td class="justify">Quarta-Feira(08-17)</td>
+                <td class="justify">Quinta-Feira(08-17)</td>
+                <td class="justify">Sexta-Feira(07-17)</td>
+            </tr>
+             <tr>
+                <td class="justify">Administração</td>
+                <td class="justify">Segunda-Feira(07-17)</td>
+                <td class="justify">Terça-Feira(07-17)</td>
+                <td class="justify">Quarta-Feira(07-17)</td>
+                <td class="justify">Quinta-Feira(07-17)</td>
+                <td class="justify">Sexta-Feira(07-17)</td>
+            </tr>
+             <tr>
+                <td class="justify">Direito:</td>
+                <td class="justify">Segunda-Feira(09-17)</td>
+                <td class="justify">Terça-Feira(09-17)</td>
+                <td class="justify">Quarta-Feira(09-17)</td>
+                <td class="justify">Quinta-Feira(09-17)</td>
+                <td class="justify">Sexta-Feira(09-17)</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>

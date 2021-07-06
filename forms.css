@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #181818;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header img {
+    width: 80px;
+    position:absolute;
+    top: 0;
+    left:62%;
+
+}
+
+form {
+    font-weight: bold;
+    font-size: 20px;
+    background: #CCC;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 3px solid #181818;
+    border-radius: 40px;
+    padding: 2em;
+}
+
+form h2 {
+    margin-bottom: 20px; 
+}
+
+input::placeholder{
+    color: #181818;
+}
+
+.padrao{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1.5px solid #181818;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset.nomesobre div{
+    display: inline;
+}
+
+fieldset.area_at {
+    margin-top: 10px;
+}
+
+fieldset.area_at div{
+    display: block;
+    margin-top: 2px;
+}
+
+.textarea {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.textarea textarea {
+    margin-top: 5px;
+    width: 680px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1.5px solid #181818;
+}
+
+.requisitos{
+    margin-top: 10px; 
+    display: inline; 
+}
+
+.requisitos input, label {
+    justify-content: center;
+}
+
+.requisitos input[type="checkbox"]{
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.pref_ctt p {
+    margin: 1em 0em 1em 0em;
+    vertical-align: bottom;
+}
+
+.pref_ctt img{
+    margin: 0em 1em 1em 0em;
+    width: 35px;
+}
+
+.pref_ctt input {
+    position: absolute;
+}
+
+.genero p {
+    margin-bottom: 10px;
+}
+
+.genero input[type="radio"]{
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.genero {
+    margin-bottom: 15px;
+}
+
+
+.enviar {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1.5px solid #181818;
+    font-weight: bold;
+}
+
+.enviar:hover {
+    color: green;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.1em green;
+}
+
+.enviar:active {
+    background: #181818;
+    color: white;
+}
+
+
+.tabela {font-weight: bold;
+    font-size: 20px;
+    background: #CCC;
+    max-width: 700px;
+    margin: 6em auto;
+    border: 3px solid #181818;
+    padding: 2em;
+    border-radius: 40px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table tr, table td, table th {
+    border: 2px solid #181818;
+    border-radius: 40px;
+    background: white;
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+    font-weight: bold;
+    margin: 0;
+}
+
+table tr {
+    padding: 2em;
+}
